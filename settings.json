@@ -28,18 +28,30 @@
       "enabled": true,
       "sneak": true
     },
-
-    "chat-messages": {
-      "enabled": false,
-      "repeat": true,
-      "repeat-delay": 60,
-
-      "messages": [
-        "sigma skibidi rizzler",
-        "hat jemand eisen für mich? (ignorieren)",
-        ""
-      ]
+     "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 4,
+      "speed": 3000
     },
+       "modules": {
+    "avoidMobs": true,
+    "combat": true,
+    "beds": true,
+    "chat": true,
+    "console-commands": true
+  },
+        "discord": {
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/1485202220600397925/VX4hkkBBdLXMPTqaE2A-cZpWDybkczrn09lTEctZRQeSLBasBZfR8hyZtvPJwS3Z1JaJ",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": false
+    }
+  },
+    
 
     "chat-log": true,
     "auto-reconnect": true,
