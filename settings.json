@@ -1,13 +1,13 @@
 {
   "bot-account": {
-    "username": "1234", 
+    "username": "BOT", 
     "password": "",
     "type": "mojang"
   },
 
   "server": {
-    "ip": "GreekMafiaOFFICIAL.aternos.me", 
-    "port": 31537,   
+    "ip": "Eternals.aternos.me", 
+    "port": 47925,   
     "version": "1.20.1"   
   },
   
@@ -30,14 +30,14 @@
     },
 
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 60,
 
       "messages": [
         "sigma skibidi rizzler",
         "hat jemand eisen für mich? (ignorieren)",
-        "I'm sexy and I know it :)"
+        ""
       ]
     },
 
