@@ -21,7 +21,6 @@ function createBot() {
   bot.loadPlugin(pathfinder);
   const mcData = require('minecraft-data')(bot.version);
   const defaultMove = new Movements(bot, mcData);
-  bot.settings.colorsEnabled = false;
 
   let pendingPromise = Promise.resolve();
 
