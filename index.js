@@ -6,7 +6,7 @@ const keep_alive = require('./keep_alive.js');
 
 const app = express();
 app.get('/', (req, res) => res.send('Bot is alive'));
-app.listen(8000, () => console.log('Web server started'));
+app.listen(process.env.PORT || 8000, () => console.log('Web server started'));
 
 function createBot() {
   const bot = mineflayer.createBot({
